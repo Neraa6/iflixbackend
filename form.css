@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: url('the_netflix_login_background__ca.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .login-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 8px;
+    width: 320px;
+    text-align: center;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 25px;
+  }
+  
+  .input-box {
+    margin-bottom: 20px;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background: #111;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .login-button {
+    background: red;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .login-button:hover {
+    background: #e50914;
+  }
+  
+  .or-line {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .entry-button {
+    background: #333;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .entry-button:hover {
+    background: #444;
+  }
+  
+  .signup-text {
+    font-size: 13px;
+    color: #ccc;
+  }
+  
+  .signup-text a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .signup-text a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Tambahkan di kedua file CSS */
+.input-box input.error {
+  border: 1px solid red !important;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  display: none;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>iFlix Sign Up</title>
+    <link rel="stylesheet" href="form1.css" />
+  </head>
+  <body>
+    <div class="logo">iFlix</div>
+
+    <div class="signup-container">
+      <h2>Sign Up</h2>
+      
+      <form id="registerForm">
+        <div class="input-box">
+          <input type="text" id="username" placeholder="Username" required>
+        </div>
+
+        <div class="input-box">
+          <input type="email" id="email" placeholder="Email Address" required>
+        </div>
+
+        <div class="input-box">
+          <input type="password" id="password" placeholder="Password" required minlength="6">
+        </div>
+
+        <div class="input-box">
+          <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+          <div class="error-message" id="confirmPasswordError">Password tidak sama</div>
+        </div>
+
+        <button type="submit" class="signup-button">Sign Up</button>
+      </form>
+
+      <div class="or-line">OR</div>
+
+      <button class="social-button google">
+        <img src="icons8-google-logo-48.png" alt="" /> Google
+      </button>
+      <button class="social-button facebook">
+        <img src="Facebook_Logo_(2019).png" alt="" /> Facebook
+      </button>
+      <button class="social-button instagram">
+        <img src="Instagram_icon.png" alt="" /> Instagram
+      </button>
+    </div>
+   
+
+    <script src="index.js"></script>
+  </body>
+</html>
